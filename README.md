@@ -3,6 +3,6 @@ Each sales person has a fixed numnber of customers and we would like to maximize
 constant. We develope an objective function and a main constraint based on a linear regression. Additionally we assume diminishing marginal returns,
 which are implemented in a naive way applying a negative exponential function with a abitrary set alpha of 0.6:
 -`f(x) = alpha*(1-exp(-coefficient*x))`
--'f(x) = alpha*(1-exp(-coefficient*x))'
+
 
 
